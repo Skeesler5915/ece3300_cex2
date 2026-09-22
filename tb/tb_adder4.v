@@ -26,16 +26,16 @@ module adder4_tb;
 
  initial begin
     // Initialize the expected array
-	 expected[0] = 5'd214;
+	 expected[0] = 5'd14;
     expected[1] = 5'd2;
     expected[2] = 5'd30;
     expected[3] = 5'd15;
     expected[4] = 5'd0;
 	 expected[5] = 5'd10;
-	 expected[6] = 5'd33;
+	 expected[6] = 5'd31;
 	 expected[7] = 5'd26;
 
-	 testa[0] = 4'd200;
+	 testa[0] = 4'd0;
     testa[1] = 4'd1;
     testa[2] = 4'd15;
     testa[3] = 4'd7;
@@ -50,7 +50,7 @@ module adder4_tb;
     testb[3] = 4'd8;
     testb[4] = 4'd0;
     testb[5] = 4'd0;
-	 testb[6] = 4'd14;
+	 testb[6] = 4'd12;
 	 testb[7] = 4'd3;
  end
 
