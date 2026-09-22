@@ -32,8 +32,8 @@ module adder4_tb;
     expected[3] = 5'd15;
     expected[4] = 5'd0;
 	 expected[5] = 5'd10;
-	 expected[6] = 5'd31;
-	 expected[7] = 5'd26;
+	 expected[6] = 5'd21;
+	 expected[7] = 5'd16;
 
 	 testa[0] = 4'd0;
     testa[1] = 4'd1;
@@ -41,8 +41,8 @@ module adder4_tb;
     testa[3] = 4'd7;
     testa[4] = 4'd0;
 	 testa[5] = 4'd10;
-	 testa[6] = 4'd19;
-	 testa[7] = 4'd23;
+	 testa[6] = 4'd9;
+	 testa[7] = 4'd13;
 
 	 testb[0] = 4'd14;
     testb[1] = 4'd1;
